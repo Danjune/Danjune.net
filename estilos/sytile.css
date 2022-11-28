@@ -1,3 +1,92 @@
-body{
-    background-color: rgb(236, 239, 255);
+/* Variables */
+:root{
+    --white-mint-1: rgb(236, 239, 255);
+    --white-mint-2: rgb(222, 245, 229);
+    --menta-claro-3: rgb(188, 234, 213);
+    --menta-medio-4: rgb(158, 213, 197);
+    --menta-fuerte-5: rgb(142, 195, 176);
+    --verde-claro-6: rgb(0, 86, 55);
+    --verde-profundo-7: rgb(0, 32, 20);
+}
+
+/* Normalization */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Secciones */
+
+.main-content{
+    /* Centrar div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Propiedades diseño */
+    height: 100vh;
+    background-color: var(--white-mint-1);
+    
+    
+    
+}
+
+/* Imagen */
+.main-imagen{
+    /* Propiedades diseño */
+    width: 98vw;
+    height: 97vh;
+    background-color: #ADC8B6;
+    border-radius: 0.5rem;
+}
+
+/* Filtro */
+.imagen-filtro{
+    /* Posicion */
+    position: absolute;
+    /* Propiedades diseño */
+    width: 98vw;
+    height: 97vh;
+    border-radius: 0.5rem;
+    background-color: rgba(64, 100, 141, 0.5);
+    /* filter: blur(1.5rem); */
+
+
+}
+.nav-bar{
+    /* Posicion */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+    padding-right: 3%;
+
+    /* Propiedades diseño */
+    height: 5%;
+    width: 100%;
+
+    /* border: 3px solid yellow; */
+    
+    /* background-color: blue; */
+}
+
+.nav-items a{
+    /* Posicion */
+    padding-left: 50px;
+    padding-right: 50px;
+
+    /* Propiedades diseño */
+    /* border: 1px solid red; */
+    text-decoration: none;
+    color: var(--verde-profundo-7);
+}
+
+/* Boton de ArtPricing */
+.artPricing-button{
+    
+    border: 1px solid var(--verde-profundo-7);
+    border-radius: 2px;
+    
 }
