@@ -7,6 +7,6 @@
     <title>Danjune Art</title>
 </head>
 <body>
-    <h1>Hey we Live on VSCODE</h1>
+    <h1>Hey we Live on VSCODE de la rama HOSTINGER</h1>
 </body>
 </html>
