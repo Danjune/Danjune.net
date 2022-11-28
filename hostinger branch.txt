@@ -1,0 +1,2 @@
+La rama hostinger branch contiene la pagina para ser visualizada en el hostinger
+sus extensiones son php
