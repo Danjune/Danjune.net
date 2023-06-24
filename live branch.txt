@@ -1,9 +1,0 @@
-Rama live: Esta rama contiene la pagina alojada en danjune.net
-
-
-es editada en vscode, rama local live.
-cuado se hacen comits, se actualizan mediante un Webhook de github a hostinger,
-
-Hostinger toma el contenido del repositorio y lo sube a el File Manager
-
-File Manager publica todo en el dominio.

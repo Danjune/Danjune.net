@@ -1,0 +1,6 @@
+Rama Dev: Esta rama contiene la pagina alojajda en el servidor XAMPP local
+
+
+1. Se abre una ventana en XAMPP
+2. se abre hdocs
+3. se edita en local y se sube a live cuando se quieran ver cambios en el sitio
